@@ -1,5 +1,5 @@
 from battle import Battle
-from bot import pokemones
+from catalog.pokemons import pokemones
 class Game:
     user_name = " "
     battle = Battle()
