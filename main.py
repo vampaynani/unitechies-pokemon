@@ -1,10 +1,5 @@
 #Primer Commit 
-from character import Character
+from game import Game
 
-character = Character()
-
-
-character.call_name()
-print(character.name)
-character.call_health()
-print(character.health)
+game = Game()
+game.ask_username()
