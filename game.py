@@ -13,6 +13,8 @@ class Game:
         for pokemon in pokemones:
             print(f"{n}.{pokemon}")
             n += 1
-
+    def ask_character(self):
+        user_pokemon = input("Que pokemon eliges?")
+        return user_pokemon
 
 
