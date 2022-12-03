@@ -8,5 +8,11 @@ class Game:
         user_name = input("Cual es tu nombre?")
 
     def show_characters(self):
-        print(f"Estos son los pokemones disponibles: {pokemones}")
+        print("Estos son los pokemos que puedes elegir: ")
+        n = 1
+        for pokemon in pokemones:
+            print(f"{n}.{pokemon}")
+            n += 1
+
+
 
