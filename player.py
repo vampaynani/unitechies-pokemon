@@ -1,2 +1,6 @@
 class Player():
-    pass
+    player = " "
+    character = " "
+
+    def select_move(self):
+        pass
