@@ -15,7 +15,5 @@ class Bot:
 
 
 
-bot = Bot()
-print(bot.initialize())
-print(bot.select_move())
+
 
