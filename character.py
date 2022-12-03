@@ -14,3 +14,15 @@ class Character():
     def call_health(self):
         self.health = POKEMONS[self.name]["hp"]
         return self.health
+    
+    def call_speed(self):
+        self.speed = POKEMONS[self.speed]["speed"]
+        return self.speed
+
+    def call_defense(self):
+        self.defense = POKEMONS[self.defense]["defense"]
+        return self.defense    
+    
+      def call_moves(self):
+        self.moves = input().lower()
+        return self.moves
