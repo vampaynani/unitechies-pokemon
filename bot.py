@@ -1,7 +1,6 @@
-from catalog.pokemons import POKEMONS
+from catalog.pokemons import POKEMONS, pokemones, poderes
 import random
-pokemones = ["bulbasaur", "charmander", "squirtle", "pikachu", "snorlax", "pidgeotto"]
-poderes = ["tackle", "vine whip","fire punch", "water gun","thunder shock","mega punch","wing attack"]
+
 class Bot:
 
     def initialize(self):
