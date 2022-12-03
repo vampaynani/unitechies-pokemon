@@ -22,7 +22,7 @@ class Character():
     def call_defense(self):
         self.defense = POKEMONS[self.defense]["defense"]
         return self.defense    
-    
-      def call_moves(self):
+
+    def call_moves(self):
         self.moves = input().lower()
         return self.moves

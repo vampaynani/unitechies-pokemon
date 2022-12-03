@@ -34,5 +34,7 @@ POKEMONS = {
         "speed": 71,
         "defense": 55,
         "moves": ["tackle", "wing attack"],
-    },
+    }
 }
+
+
