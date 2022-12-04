@@ -35,4 +35,10 @@ POKEMONS = {
         "defense": 55,
         "moves": ["tackle", "wing attack"],
     },
+        "dragonite": {
+        "hp": 165,
+        "speed": 30,
+        "defense": 75,
+        "moves": ["dragon tail", "mega rage"],
+    },
 }
