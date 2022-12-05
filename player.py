@@ -1,7 +1,6 @@
 from catalog.moves import MOVES
 import random
 from character import Character
-
 character = Character()
 
 class Player():
