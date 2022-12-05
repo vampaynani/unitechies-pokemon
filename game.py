@@ -35,6 +35,12 @@ class Game:
         battle = Battle()
         battle.introduction()
 
+    def run_battle(self):
+        self.battle.introduction()
+        self.battle.run()
+        self.battle.show_winner()
+        
+
 
 
 

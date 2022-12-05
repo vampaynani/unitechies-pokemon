@@ -15,6 +15,7 @@ class Battle:
 
     def run(self):
         self.player.character.prepare_for_battle()
+        self.who_goes_first()
         self.player.character.attack()
         self.player.character.receive_damage()
 
