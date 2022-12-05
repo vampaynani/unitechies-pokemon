@@ -16,7 +16,7 @@ class Character:
     def is_fainted():
         pass
 
-    def attack():
+    def attack(self):
         pass
 
     def receive_damage():
