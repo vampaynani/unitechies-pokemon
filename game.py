@@ -3,7 +3,7 @@ from catalog.pokemons import POKEMONS
 from player import Player
 from character import Character
 player = Player()
-character = Character()
+
 
 class Game:
     user_name = " "
@@ -20,7 +20,7 @@ class Game:
             
     def ask_character(self):
         user_pokemon = input("Que pokemon eliges? ").lower()
-        character.name = user_pokemon 
+        player.character = user_pokemon 
         
 
     def setup_player(self):
