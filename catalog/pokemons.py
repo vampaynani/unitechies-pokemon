@@ -42,7 +42,7 @@ POKEMONS = [
     }
 ]
 
-pokemones = ["bulbasaur", "charmander", "squirtle", "pikachu", "snorlax", "pidgeotto"]
+
 poderes = ["tackle", "vine whip","fire punch", "water gun","thunder shock","mega punch","wing attack"]
 
 

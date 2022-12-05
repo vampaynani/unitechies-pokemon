@@ -1,16 +1,22 @@
-from catalog.pokemons import POKEMONS, pokemones, poderes
+from catalog.pokemons import POKEMONS
+from catalog.moves import MOVES
 import random
 
 class Bot:
 
-    def initialize(self):
-        """Selecciona un pokemon al azar"""
-        bot_pokemon = pokemones[random.randint(0,5)]
+    def initalize(self):
+        bot_pokemon = POKEMONS[random.randint(0,5)]["name"]
         return bot_pokemon
+    
     def select_move(self):
         """Selecciona un ataque al azar"""
-        bot_attack = poderes[random.randint(0,6)]
+        bot_attack = MOVES[random.randint(0,6)]["power"]
         return bot_attack
+
+
+bot = Bot()
+print(bot.initalize())
+print(bot.select_move())
 
 
 
