@@ -1,5 +1,5 @@
 from battle import Battle
-from catalog.pokemons import pokemones
+from catalog.pokemons import POKEMONS
 
 
 class Game:
@@ -13,8 +13,8 @@ class Game:
     def show_characters(self):
         print("Estos son los pokemos que puedes elegir: ")
         n = 1
-        for pokemon in pokemones:
-            print(f"{n}.{pokemon}")
+        for i in range(0,5):
+            print(f'{n}.{POKEMONS[i]["name"]}')
             n += 1
     def ask_character(self):
         user_pokemon = input("Que pokemon eliges?")

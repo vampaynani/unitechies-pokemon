@@ -14,9 +14,7 @@ class Bot:
         return bot_attack
 
 
-bot = Bot()
-print(bot.initalize())
-print(bot.select_move())
+
 
 
 

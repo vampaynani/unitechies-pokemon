@@ -43,6 +43,5 @@ POKEMONS = [
 ]
 
 
-poderes = ["tackle", "vine whip","fire punch", "water gun","thunder shock","mega punch","wing attack"]
 
 
