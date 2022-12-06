@@ -7,3 +7,4 @@ MOVES = {
     "mega punch": {"power": 80},
     "wing attack": {"power": 60},
 }
+
